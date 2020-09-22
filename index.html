@@ -9,41 +9,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <header>
-            <h2>Meu site</h2>
-            <ul>
-                <li>Sobre mim</li>
-                <li>Projetos</li>
-                <li>Competências</li>
-            </ul>
-            <div class="contentHeader">
+    <header>
+            <nav>
                 <h2>Meu site</h2>
+                <ul class="listAboutMe">
+                    <li> <a href="#aboutMe"> Sobre mim </a></li>
+                    <li> <a href="#projects"> Projetos </a></li>
+                    <li> <a href="#competencies">Competências</a></li>
+                </ul>
+            </nav>
+            <div class="contentHeader">
+                <h2>Bem vindo ao meu site</h2>
+                <div> <a href="#aboutMe"> <img src="./img/chevron-arrow-down.png" alt="Ver Mais" width="30px"> </a> </div>
             </div>
-            <span> ... </span>
-        </header>   
+            
+    </header>   
+    <div class="container">
+        <article class="boxContent">
+            <h2 id="aboutMe">Sobre mim</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis ipsum beatae qui veniam ad nemo reprehenderit architecto, expedita pariatur atque minus consequuntur, rem voluptas error, porro laudantium? Voluptatum, consectetur. </p>
+        </article>
+        <article class="boxContent">
+            <h2 id="projects">Projetos</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, molestias exercitationem? Non debitis at consequuntur eligendi. Inventore magnam at assumenda. Distinctio ex aut dolor officiis quasi modi dolorum, vel quos!</p>
+        </article>
+        <article class="boxContent">
+            <h2 id="competencies">Competências</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus eligendi quisquam animi cum dolor architecto aliquid quod deserunt cupiditate quas illum repellendus aperiam ab velit, ducimus accusantium facere repudiandae error!</p>
+        </article>
     </div>
-    <div class="content">
-        <article class="boxContent">
-            <h2>Sobre mim</h2>
-            <p></p>
-        </article>
-        <article class="boxContent">
-            <h2>Projetos</h2>
-            <p></p>
-        </article>
-        <article class="boxContent">
-            <h2>Competências</h2>
-            <p></p>
-        </article>
-    </div>
-    <div class="footer">
-        <footer>
+    <footer>
             <a href="#">GITHUB</a>
             <a href="#">LINKDIN</a>
             <a href="#">INSTAGRAM</a>
             <a href="#">FACEBOOK</a>
-        </footer>
-    </div>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,51 @@
+body{
+    color: white;
+    margin: 0;
+    font-family: Montserrat;
+    background-color: #AFABAB;
+}
+footer{
+    height: 10rem;
+    background-color: #1D1B1B ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    margin-right: 1rem;
+}
+.container{
+    padding: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #21FA53 ;
+}
+header{
+    height: 100vh;
+    background: #1D1B1B;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+header nav .listAboutMe { 
+    display: flex;
+    list-style-type: none;
+}
+header nav .listAboutMe li {
+    margin-right: 1rem;
+}
+
+header .contentHeader {
+    text-align: center;
+    margin-top: 15rem;
+}
+header .contentHeader div {
+    margin-top: 16rem;
+}
