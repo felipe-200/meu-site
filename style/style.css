@@ -2,7 +2,7 @@ body{
     color: white;
     margin: 0;
     font-family: Montserrat;
-    background-color: #AFABAB;
+    background-color: #f9f8fd   ;
 }
 footer{
     height: 10rem;
@@ -16,6 +16,7 @@ footer a {
 }
 .container{
     padding: 1rem;
+    color: black;
 }
 a{
     color: white;
@@ -23,6 +24,21 @@ a{
 }
 a:hover{
     color: #21FA53 ;
+}
+.boxContent div {
+    display:  flex;
+}
+.container .boxContent section {
+    background-color: #e7e2df;
+    width: 25rem;
+    height: 20rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.144) 1rem 1rem 1rem;
+}
+.container .boxContent section img {
+    margin: 1rem;
 }
 header{
     height: 100vh;
