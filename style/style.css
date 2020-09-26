@@ -50,6 +50,15 @@ header nav{
     justify-content: space-between;
     padding: 1rem;
 }
+header nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+header nav div h3{
+    margin-left: 1rem;
+}
 header nav .listAboutMe { 
     display: flex;
     list-style-type: none;
