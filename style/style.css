@@ -53,8 +53,6 @@ header nav{
 header nav div{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
 }
 header nav div h3{
     margin-left: 1rem;
@@ -72,5 +70,5 @@ header .contentHeader {
     margin-top: 15rem;
 }
 header .contentHeader div {
-    margin-top: 16rem;
+    margin-top: 13rem;
 }
