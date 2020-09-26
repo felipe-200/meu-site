@@ -28,7 +28,7 @@ a:hover{
 .boxContent div {
     display:  flex;
 }
-.container .boxContent section {
+section {
     background-color: #e7e2df;
     width: 25rem;
     height: 20rem;
