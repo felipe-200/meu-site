@@ -72,3 +72,36 @@ header .contentHeader {
 header .contentHeader div {
     margin-top: 13rem;
 }
+
+
+@media(max-width: 760px){
+    body{ 
+        font-size: 15px;
+    }
+    header .contentHeader {
+        font-size: 11px;
+    }
+    header nav .listAboutMe li {
+        visibility: hidden;
+    }
+    .container .boxContent div {
+        display: inline;
+    }
+    section {
+        background-color: #e7e2df;
+        width: 20rem;
+        height: 15rem;
+        border-radius: 1rem;
+        text-align: center;
+        margin: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.144) 1rem 1rem 1rem;
+        font-size: 15px;
+    }
+    section img {
+        width: 150px;
+        height: 150px;
+    }
+    footer{
+        font-size: 13px;
+    }
+}
